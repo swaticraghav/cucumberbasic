@@ -31,7 +31,7 @@ public class Hook extends BaseUtil{
     public void TearDownTest(Scenario scenario) {
         if (scenario.isFailed()) {
             //Take screenshot logic goes here
-            System.out.println(scenario.getName());
+            //System.out.println(scenario.getName());
         }
         System.out.println("Closing the browser : MOCK");
     }
